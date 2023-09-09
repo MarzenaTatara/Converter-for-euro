@@ -1,0 +1,42 @@
+.form {
+    max-width: 800px;
+    margin: 200px auto;
+}
+
+.body {
+    background-color: #8080802b;
+}
+
+.form__field {
+    background-color: white;
+    padding: 30px 30px;
+    font-size: large;
+    border-width: thick;
+    line-height: 2.5;
+}
+
+.form__legend {
+    font-size: large;
+    font-family: fantasy;
+}
+
+.form__amount {
+    border-radius: 5px;
+    border: inset;
+}
+
+.form__button {
+    border-radius: 5px;
+    border: inset;
+    background-color: teal;
+    padding: 5px 330px;
+    color: white;
+}
+
+.form__button:hover {
+    background-color: rgb(18, 149, 149);
+}
+
+.form__button:active {
+    background-color: hsl(180, 100%, 35%);
+}
